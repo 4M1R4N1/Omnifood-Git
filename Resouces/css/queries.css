@@ -1,0 +1,199 @@
+/* Big tablets and 1200 */
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 90%;
+        padding: 2%;
+        margin: 5%;
+    }
+    .row{padding: 1%;}
+    .app-screen{ width: 50%;}
+}
+    
+/* small tablets to big tablets from: 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+    .stick .mobile-nav-icon-btn{
+        color: #555;
+        margin-bottom: 10px;
+    }
+
+    .mobile-nav-icon{
+        display: block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 20px;
+        cursor: pointer;
+        font-size: 50px;
+    }
+
+    .main_nav{
+        display: none;
+        float: left;
+        margin-top: 25px;
+        
+    }
+
+    .section-features h2{
+        margin-top: 40px;
+    }
+    .main_nav li{display: block;}
+
+    
+    .body{font-size: 18px;}
+   
+    .hero-text-box{
+        margin: 0px 10px;
+    }
+    .main_nav li a:hover,
+    .main_nav li a:active{
+        border-bottom: solid 2px #e67e22;   
+        padding: 10px 0;
+        font-size: 100%;
+        display: block;
+    }
+    section{padding: 5px 0;}
+    .long-copy{width: 90%; margin-left: 5%;}
+
+    .app-screen{ width: 50%;}
+
+    .works-steps p{font-size: 80%;}
+
+    .works-steps div{ 
+        padding-top: 7px;
+        height: 40px;
+        width: 40px;
+        font-size: 100%;
+    }
+    .works-steps{margin-top: 30px;}
+    .btn-app img{height: 40px;} 
+    .icon-small{ width: 15px;}
+    .city-features{font-size: 80%;}
+    .section-testimonials h2{ font-size: 150%;}
+    blockquote{ text-align: justify;
+        padding-inline-end: 2%;
+    }
+    cite img:hover{ transform: scale(1.5);}
+    .plan-price{font-size: 250%; }
+    .plan-box div{padding: 10px;}
+    .plan-box div li{font-size: 70%;}
+    footer {font-size: 80%;}
+    .social-icons li{margin-right: 20px;}
+    .section-map{
+        width: 100%; 
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .up-btn{
+        display: none;
+    }
+
+}
+/* big phones to small tablets: from 480px to 768px  */
+@media only screen and (max-width: 767px){
+    body{font-size: 16px;}
+    section{padding: 30px;} 
+
+    .row, .hero-text-box{
+        padding: 0 4%;
+    }
+    .section-map{
+        width: 100%;
+        height: auto;
+    }
+
+    .long-copy{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    footer{
+        font-size: 80%;
+    }
+    .social-icons li{
+        margin-left: 3px;
+        margin-right: 2px;
+    }
+    .footer-nav li{
+        font-size: 70%;
+    }
+    h1 {font-size: 170%;}
+    h2{ font-size: 130%;}
+    .steps-box:first-child{
+        text-align: center;
+    }
+    blockquote::before{font-size: 250%;
+    margin-left: 1%;}
+    .contact-form{
+        width: 90%;
+    }
+    #send-it{
+        text-align: center;
+    }
+    .icon-big{
+        margin-left: 46%;
+        margin-bottom: 5%;
+    }
+
+    .main_nav{
+        margin-left: 10px;
+    }
+
+    .mobile-nav-icon{
+        font-size: 50px;
+        display: block;
+        float: right;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: 0;
+        margin-right: 5px;
+    }
+    
+}
+/* small phones from: 0 to 480px */
+
+@media only screen and (max-width: 480px){
+    section {padding: 25px 0;}
+    .contact-form{width: 100%;}
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    .social-icons{
+        margin-top: 20px;
+    }
+    .hero-text-box a{
+        margin-top: 30px;
+    }
+    .footer-nav{
+        word-spacing: normal;
+    }
+
+    .icon-big{
+        margin-left: 46%;
+        margin-bottom: 5%;
+    }
+    .long-copy{
+        margin-bottom: 40px;
+    }
+
+    .main_nav{
+        display: none;
+        margin-left: 0px;
+        margin-right: 0px;
+}
+    .logo{
+       margin-right: 1px;
+    }
+    .mobile-nav-icon{
+        font-size: 40px;
+        margin-right: 5px;
+        margin-top: 20px;
+
+    }
+}
